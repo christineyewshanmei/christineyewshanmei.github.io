@@ -19,34 +19,96 @@
             font-size: 50px;
             text-align: center;
         }
+
+        h2 {
+            color: rgb(0, 166, 152);
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .photo {
+            margin-left: 90px;
+            box-shadow: 1px 2px 9px rgb(4, 200, 226);
+            border-radius: 10px;
+        }
+
+        p {
+            color: rgb(0, 83, 166);
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            margin: 20px;
+            line-height: 1.2;
+            text-align: justify;
+            font-weight: 600;
+        }
+
+        .youtube {
+            margin-left: 10px;
+            margin-right: 10px;
+            border-radius: 50px;
+        }
+
+        a[href] {
+            color: rgb(1, 101, 207);
+            font-weight: bold;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .mv {
+            margin-left: 20px;
+            margin-top: 10px;
+
+            border-radius: 5px;
+        }
+
+        .social {
+            margin-left: 50px;
+            border-radius: 10px;
+
+        }
+
+        button {
+            background-color: #07ffe6;
+            color: rgb(2, 65, 118);
+            padding: 10px 50px;
+            border-radius: 50px;
+            margin-top: 20px;
+            margin-left: 50px;
+            text-align: center;
+            font-weight: bold;
+            border: none;
+            box-shadow: 1px 2px 9px rgb(4, 200, 226);
+
+        }
     </style>
 </head>
 
 <body>
     <h1>Juhoon</h1>
     <h2>Juhoon's Photos</h2>
-    <img src="image/jhflower.jpg" width="200" alt="Juhoon">
-    <img src="image/funnyjh.jpg" width="200" alt="Juhoon">
-    <img src="image/jhstage.jpg" width="200" alt="Juhoon">
+    <img class="photo" src="image/jhflower.jpg" width="190" alt="Juhoon">
+    <img class="photo" src="image/funnyjh.jpg" width="200" alt="Juhoon">
+    <img class="photo" src="image/jhstage.jpg" width="195" alt="Juhoon">
     <h2>Introduction</h2>
     <p>Juhoon (birth name: Kim Ju-hoon) is from Korea and is one of the members of CORTIS. Besides speaking Korean, he
         can also speak English. He participated in the choreography for CORTIS “GO!” and is known as the chill member of
         the group. He is also musically talented and can play the piano, flute, and guitar.</p>
     <h2>Music Videos</h2>
-    <ul>
-        <li><img src="image/go.jpg" width="300" alt="Go!"></li>
+    <ol>
+        <li><img class="mv" src="image/go.jpg" width="300" alt="Go!"></li>
 
-        <a href="https://www.youtube.com/watch?v=WXS-o57VJ5w&list=RDWXS-o57VJ5w&start_radio=1"><img
-                src="image/youtube.jpg" width="50">Go! Music Video</a>
-        <li><img src="image/acai.jpg" width="300" alt="Acai"></li>
-        <a href="https://www.youtube.com/watch?v=nCElUD0jvgo&list=RDnCElUD0jvgo&start_radio=1"><img
-                src="image/youtube.jpg" width="50">Acai Music Video</a>
-        <li><img src="image/joyride.jpg" width="300" alt="Joyride"></li>
-        <a href="https://www.youtube.com/watch?v=8QZeXvOjgGE&list=RD8QZeXvOjgGE&start_radio=1"><img
-                src="image/youtube.jpg" width="50">Joyride Music Video</a>
-    </ul>
+        <a href="https://www.youtube.com/watch?v=WXS-o57VJ5w&list=RDWXS-o57VJ5w&start_radio=1"><img class="youtube"
+                src="image/youtube.jpg" width="40">Go! Music Video</a>
+        <li><img class="mv" src="image/acai.jpg" width="300" alt="Acai"></li>
+        <a href="https://www.youtube.com/watch?v=nCElUD0jvgo&list=RDnCElUD0jvgo&start_radio=1"><img class="youtube"
+                src="image/youtube.jpg" width="40">Acai Music Video</a>
+        <li><img class="mv" src="image/joyride.jpg" width="300" alt="Joyride"></li>
+        <a href="https://www.youtube.com/watch?v=8QZeXvOjgGE&list=RD8QZeXvOjgGE&start_radio=1"><img class="youtube"
+                src="image/youtube.jpg" width="40">Joyride Music Video</a>
+    </ol>
     <h2>Cortis' Social Media</h2>
-    <a href="https://www.instagram.com/cortis/" target="_blank"><img src="image/ins.jpg" width="25"
+    <a href="https://www.instagram.com/cortis/" target="_blank"><img class="social" src="image/ins.jpg" width="25"
             alt="Instagram">Visit Cortis' Instagram</a><br>
     <button onclick="window.location.href='https://www.instagram.com/cortis/'"> Cortis'
         Instagram</button>
