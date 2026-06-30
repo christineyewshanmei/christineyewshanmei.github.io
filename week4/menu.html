@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Menu</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: "oxygen", sans-serif;
+            max-width: 1600px;
+        }
+
+        .phone {
+            align-content: center;
+        }
+
+        .menu {
+            display: flex;
+            gap: 30px;
+        }
+
+        .contact {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .button {
+            background-color: #FF5A36;
+            color: rgb(255, 255, 255);
+            padding: 10px 10px;
+            border-radius: 8px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <div><img src="images/logo.jpg" width="150px" alt="logo"> </div>
+        </div>
+        <div class="menu">
+            <div>Home</div>
+            <div>Services</div>
+            <div>Work</div>
+            <div>Project Details</div>
+            <div>Contact</div>
+        </div>
+        <div class="contact">
+            <div>
+                <img src="images/phone.jpg" width="25px" alt="phone">
+            </div>
+            <div>555-123-4567</div>
+            <button class="button">Contact</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
