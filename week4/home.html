@@ -11,7 +11,7 @@
         .container {
             width: 90%;
             margin: 0 auto;
-            max-width: 1320px;
+            max-width: 1590px;
         }
 
         .bar {
@@ -54,6 +54,11 @@
             display: flex;
             align-items: center;
             font-family: "Space Grotesk", sans-serif;
+            gap: 110px;
+        }
+
+        .mobile {
+            font-family: "Space Grotesk", sans-serif;
         }
 
         h1 {
@@ -77,7 +82,6 @@
         }
 
         .photo {
-            margin-left: 100px;
             margin-top: 35px;
         }
 
@@ -86,24 +90,49 @@
             justify-content: space-between;
             align-items: center;
             margin-top: 60px;
+            width: 100%;
         }
 
-        @media screen and (max-width: 1245px) {
+        @media screen and (min-width: 783px) {
+            .content {
+                width: 50%;
+            }
+        }
+
+        @media screen and (min-width: 783px) {
+            .photo {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width: 1180px) {
             .header {
                 display: none;
             }
         }
 
-        @media screen and (min-width: 1245px) {
+        @media screen and (min-width: 1180px) {
             .hamburger {
                 display: none;
             }
         }
 
-        @media screen and (max-width: 1245px) {
+        @media screen and (max-width: 780px) {
             .about {
                 flex-direction: column;
-                text-align: left;
+                align-items: left;
+            }
+        }
+
+        @media screen and (max-width: 780px) {
+            .about {
+                display: none;
+            }
+        }
+
+        @media screen and (min-width: 780px) {
+            .mobile {
+                display: none;
             }
         }
     </style>
@@ -139,30 +168,47 @@
                     including
                     SEO, PPC, social media marketing, and content creation</p>
                 <button class="booking">Book a consultation</button>
+
             </div>
             <div class="photo">
-                <img src="images/speaker.png" width="600px" alt="speaker">
+                <img src="images/speaker.png" width="100%" alt="speaker">
             </div>
+
+
+        </div>
+        <div class="mobile">
+            <div class="content">
+                <h1>Navigating the digital landscape for success</h1>
+                <div class="photo">
+                    <img src="images/speaker.png" width="100%" alt="speaker">
+                </div>
+                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
+                    including
+                    SEO, PPC, social media marketing, and content creation</p>
+                <button class="booking">Book a consultation</button>
+
+            </div>
+
         </div>
 
         <div class="company">
             <div>
-                <img src="images/amazon.jpg">
+                <img src="images/amazon.jpg" width="100%">
             </div>
             <div>
-                <img src="images/drillle.jpg">
+                <img src="images/drillle.jpg" width="100%">
             </div>
             <div>
-                <img src="images/hubspot.jpg">
+                <img src="images/hubspot.jpg" width="100%">
             </div>
             <div>
-                <img src="images/notion.jpg">
+                <img src="images/notion.jpg" width="100%">
             </div>
             <div>
-                <img src="images/netflix.jpg">
+                <img src="images/netflix.jpg" width="100%">
             </div>
             <div>
-                <img src="images/zoom.jpg">
+                <img src="images/zoom.jpg" width="100%">
             </div>
         </div>
     </div>
