@@ -11,7 +11,7 @@
         .container {
             width: 90%;
             margin: 0 auto;
-            max-width: 1560px;
+            max-width: 1530px;
         }
 
         .bar {
@@ -116,10 +116,11 @@
         }
 
         .servicescontent {
-            display: flex;
-            gap: 40px;
+            gap: 10px;
             margin-top: 50px;
-
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
         }
 
         .engine {
@@ -131,7 +132,6 @@
             box-shadow: 0px 10px 0px #191a23;
             align-items: center;
             display: flex;
-            width: 50%;
             justify-content: space-evenly;
         }
 
@@ -172,7 +172,6 @@
             box-shadow: 0px 10px 0px #191a23;
             align-items: center;
             display: flex;
-            width: 50%;
         }
 
         @media screen and (max-width: 783px) {
@@ -364,14 +363,47 @@
                 </div>
             </div>
             <div class="pay">
-                <span>Pay-Per-Click Advertising</span>
+                <span class="payhead">Pay-Per-Click Advertising</span>
                 <div class="payarrow">
-                    <img src="images/greenarrow.png" width="30px" alt="arrow">
+                    <img src="images/greenarrow.png" width="40px" alt="arrow">
                     <p>Learn more</p>
-                    <img src="images/pay.png" alt="PPC">
+                    <img src="images/pay.png" width="100%" alt="PPC">
+                </div>
+            </div>
+            <div class="social">
+                <span class="socialhead">Social Media Marketing</span>
+                <div class="socialarrow">
+                    <img src="images/blackarrow.png" width="40px" alt="arrow">
+                    <p>Learn more</p>
+                    <img src="images/social.png" width="100%" alt="Social Media">
+                </div>
+            </div>
+            <div class="email">
+                <span class="emailhead">Email Marketing</span>
+                <div class="emailarrow">
+                    <img src="images/greenarrow.png" width="40px" alt="arrow">
+                    <p>Learn more</p>
+                    <img src="images/email.png" width="100%" alt="Email Marketing">
+                </div>
+            </div>
+            <div class="creation">
+                <span class="creationhead">Content Creation</span>
+                <div class="creationarrow">
+                    <img src="images/greenarrow.png" width="40px" alt="arrow">
+                    <p>Learn more</p>
+                    <img src="images/creation.png" width="100%" alt="Content Creation">
+                </div>
+            </div>
+            <div class="analytics">
+                <span class="analyticshead">Analytics and Reporting</span>
+                <div class="analyticsarrow">
+                    <img src="images/blackarrow.png" width="40px" alt="arrow">
+                    <p>Learn more</p>
+                    <img src="images/analytics.png" width="100%" alt="Analytics and Reporting">
                 </div>
             </div>
         </div>
+
     </div>
 
 </body>
