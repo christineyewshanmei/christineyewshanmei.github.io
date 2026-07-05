@@ -11,7 +11,7 @@
         .container {
             width: 90%;
             margin: 0 auto;
-            max-width: 1590px;
+            max-width: 1560px;
         }
 
         .bar {
@@ -115,8 +115,55 @@
             }
         }
 
+        .servicescontent {
+            display: flex;
+            gap: 40px;
+            margin-top: 50px;
+
+        }
+
         .engine {
             background-color: #f3f3f3;
+            border-radius: 45px;
+            border: 1px solid #191a23;
+            font-family: "Space Grotesk", sans-serif;
+            font-size: 35px;
+            box-shadow: 0px 10px 0px #191a23;
+            align-items: center;
+            display: flex;
+            width: 50%;
+            justify-content: space-evenly;
+        }
+
+        .enghead {
+            background-color: #b9ff66;
+            padding: 4px 9px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .engcontent {
+            display: flex;
+            flex-direction: column;
+            gap: 110px;
+            width: 40%;
+            margin-top: 15px;
+        }
+
+        .engarrow {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+
+            p {
+                font-size: 20px;
+                margin: 0px;
+                font-weight: none;
+            }
+        }
+
+        .pay {
+            background-color: #b9ff66;
             border-radius: 45px;
             border: 1px solid #191a23;
             padding: 30px;
@@ -303,20 +350,29 @@
             <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed
                 online.These services include:</p>
         </div>
-        <div class="engine">
-            <div class="engcontent">
-                <span>Search engine optimization</span>
-                <div class="engarrow">
-                    <img src="images/greenarrow.jpg" width="20px" alt="arrow">
-                    <p>Learn more</p>
+        <div class="servicescontent">
+            <div class="engine">
+                <div class="engcontent">
+                    <span class="enghead">Search engine optimization</span>
+                    <div class="engarrow">
+                        <img src="images/greenarrow.png" width="40px" alt="arrow">
+                        <p>Learn more</p>
+                    </div>
+                </div>
+                <div class="engimg">
+                    <img src="images/engine.png" width="100%" alt="SEO">
                 </div>
             </div>
-            <div class="engimg">
-                <img src="images/engine.png" alt="SEO">
+            <div class="pay">
+                <span>Pay-Per-Click Advertising</span>
+                <div class="payarrow">
+                    <img src="images/greenarrow.png" width="30px" alt="arrow">
+                    <p>Learn more</p>
+                    <img src="images/pay.png" alt="PPC">
+                </div>
             </div>
         </div>
     </div>
-
 
 </body>
 
