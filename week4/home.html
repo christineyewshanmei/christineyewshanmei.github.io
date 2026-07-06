@@ -31,6 +31,9 @@
             font-family: "Space Grotesk", sans-serif;
         }
 
+        h3 {
+            font-family: "Space Grotesk", sans-serif;
+        }
 
         .header {
             display: flex;
@@ -116,20 +119,11 @@
         }
 
         .servicescontent {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 50px;
-            justify-content: center;
-        }
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 35px;
+            margin-top: 40px;
 
-        .servicescard {
-            width: 45%;
-        }
-
-        .servicescard img {
-            width: 120px;
-            height: auto;
-            object-fit: contain;
         }
 
         .servicescard {
@@ -143,30 +137,28 @@
             align-items: center;
         }
 
-
-
         .servicescard h3 {
             font-size: 30px;
-            margin: 0;
+            margin-bottom: 125px;
+            margin-top: 0px;
         }
 
-        .servicescard p {
-            margin: 0%
+        .servicescard img {
+            width: 45%;
         }
 
-
-        .servicescard h3 span {
-            border-radius: 5px;
-            padding: 2px 6px;
+        .arrow img {
+            width: 40px;
         }
-
-
 
         .arrow {
             display: flex;
-            align-items: center;
             gap: 10px;
-            width: 40px;
+            align-items: center;
+
+            p {
+                margin: 0px
+            }
         }
 
         @media screen and (max-width: 783px) {
@@ -347,7 +339,8 @@
         <div class="servicescontent">
             <div class="servicescard card1">
                 <div>
-                    <h3><span>Search engine</span> <br><span>optimization</span>
+                    <h3><span>Search engine</span> <br>
+                        <span>optimization</span>
                     </h3>
                     <div class="arrow">
                         <img src="images/greenarrow.png">
