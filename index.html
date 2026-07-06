@@ -10,25 +10,34 @@
 
 
         p {
-            margin: 20px;
+            margin: 21px;
             font-family: "Cause", cursive;
+            color: rgb(156, 207, 255);
+            text-shadow: 1px 1px 2px #3047ad;
+            font-size: 18px;
+            font-weight: bold;
         }
 
         h1 {
             font-family: "Chango", sans-serif;
+            text-shadow: 1px 1px 3px #B4E1EB;
+            color: #002c65;
         }
 
         h2 {
             font-family: "Cause", cursive;
             font-optical-sizing: auto;
             font-weight: bold;
+            text-shadow: 1px 1px 3px #B4E1EB;
+            color: #002537;
         }
 
         .header {
             display: flex;
             justify-content: space-between;
-            background-color: blue;
+            background-color: #95BDD7;
             align-items: center;
+            margin-bottom: 20px;
         }
 
         .logo img {
@@ -44,9 +53,15 @@
             margin-right: 10px;
         }
 
-        .content {
+        .bio {
             text-align: center;
             margin-bottom: 50px;
+        }
+
+        .content {
+            background-image: url(images/background.jpg);
+            background-size: cover;
+            background-position: center;
         }
 
         .profile {
@@ -76,7 +91,7 @@
         }
 
         .week2 {
-            background-color: rgba(127, 255, 212, 0.552);
+            background-color: #f9e8a2b4;
             width: 25%;
             padding: 20px;
             text-align: center;
@@ -84,7 +99,7 @@
         }
 
         .week3 {
-            background-color: rgba(127, 255, 212, 0.552);
+            background-color: #f9e8a2b4;
             width: 25%;
             padding: 20px;
             text-align: center;
@@ -92,21 +107,28 @@
         }
 
         .week4 {
-            background-color: rgba(127, 255, 212, 0.552);
+            background-color: #f9e8a2b4;
             width: 25%;
             padding: 20px;
             text-align: center;
             border-radius: 20px;
         }
 
+        hr {
+            color: black;
+        }
+
         .footer {
-            background-color: blue;
-            margin-top: 50px;
+            background-color: #95BDD7;
+            margin-top: 20px;
             text-align: center;
             padding: 20px;
 
             p {
                 margin: 5px;
+                text-shadow: none;
+                color: #4e83b1;
+                font-size: 14px;
             }
         }
 
@@ -140,61 +162,64 @@
         </div>
     </div>
     <div class="content">
-        <img class="profile" src="images/personal.jpeg" width="200" alt="Profile Image">
-        <h1>Christine Yew</h1>
-        <h2>Web Publishing</h2>
-        <p>Hello, my name is Christine and I am from Ipoh. I like listening to music, especially piano and
-            instrumental music because it helps me feel calm and relaxed.</p>
-    </div>
-    <div class="exerciselist">
-        <div class="week2">
-            <div class="contentexercise">
-                <div class="headline"></div>
-                <img src="images/calendar.png" width="35px">
-                <h2>Week 2</h2>
-            </div>
-            <hr>
-            <div class="links">
-                <div>
-                    <a href="week2/artist.html" target="_blank">Exercise 1</a>
-                </div>
-                <div>
-                    <a href="week2/button.html" target="_blank">Exercise 2</a>
-                </div>
-                <div>
-                    <a href="week2/self-intro.html" target="_blank">Exercise 3</a>
-                </div>
-            </div>
+        <div class="bio">
+            <img class="profile" src="images/personal.jpeg" width="200" alt="Profile Image">
+            <h1>Christine Yew</h1>
+            <h2>Web Publishing</h2>
+            <p>Hello, my name is Christine and I am from Ipoh. I like listening to music, especially piano and
+                instrumental music because it helps me feel calm and relaxed.</p>
         </div>
-        <div class="week3">
-            <div class="contentexercise">
-                <div class="headline"></div>
-                <img src="images/calendar.png" width="35px">
-                <h2>Week 3</h2>
-            </div>
-            <hr>
-            <div class="links">
-                <div>
-                    <a href="week3/flexbox1.html" target="_blank">Exercise 1</a>
+
+        <div class="exerciselist">
+            <div class="week2">
+                <div class="contentexercise">
+                    <div class="headline"></div>
+                    <img src="images/calendar.png" width="35px">
+                    <h2>Week 2</h2>
                 </div>
-                <div>
-                    <a href="week3/flexbox2.html" target="_blank">Exercise 2</a>
+                <hr>
+                <div class="links">
+                    <div>
+                        <a href="week2/artist.html" target="_blank">Exercise 1</a>
+                    </div>
+                    <div>
+                        <a href="week2/button.html" target="_blank">Exercise 2</a>
+                    </div>
+                    <div>
+                        <a href="week2/self-intro.html" target="_blank">Exercise 3</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="week4">
-            <div class="contentexercise">
-                <div class="headline"></div>
-                <img src="images/calendar.png" width="35px">
-                <h2>Week 4</h2>
-            </div>
-            <hr>
-            <div class="links">
-                <div>
-                    <a href="week4/home.html" target="_blank">Exercise 1</a>
+            <div class="week3">
+                <div class="contentexercise">
+                    <div class="headline"></div>
+                    <img src="images/calendar.png" width="35px">
+                    <h2>Week 3</h2>
                 </div>
-                <div>
-                    <a href="week4/menu.html" target="_blank">Exercise 2</a>
+                <hr>
+                <div class="links">
+                    <div>
+                        <a href="week3/flexbox1.html" target="_blank">Exercise 1</a>
+                    </div>
+                    <div>
+                        <a href="week3/flexbox2.html" target="_blank">Exercise 2</a>
+                    </div>
+                </div>
+            </div>
+            <div class="week4">
+                <div class="contentexercise">
+                    <div class="headline"></div>
+                    <img src="images/calendar.png" width="35px">
+                    <h2>Week 4</h2>
+                </div>
+                <hr>
+                <div class="links">
+                    <div>
+                        <a href="week4/home.html" target="_blank">Exercise 1</a>
+                    </div>
+                    <div>
+                        <a href="week4/menu.html" target="_blank">Exercise 2</a>
+                    </div>
                 </div>
             </div>
         </div>
