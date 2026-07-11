@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
-.services {
+.casestudies {
     display: flex;
     gap: 35px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     align-items: center;
 
     p {
@@ -17,5 +18,25 @@
         background-color: var(--primary);
         padding: 7px;
         border-radius: 7px;
+    }
+}
+
+.casecontent {
+    display: flex;
+    background-color: var(--border);
+    color: var(--secondary);
+    padding: 60px 70px;
+    gap: 64px;
+    border-radius: 45px;
+}
+
+.learnmore {
+    display: flex;
+    gap: 10px;
+    color: var(--primary);
+    align-items: center;
+
+    p {
+        margin: 0px;
     }
 }

@@ -1,12 +1,5 @@
  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
- h2 {
-     margin-left: 8px;
-     font-size: 35px;
-     font-family: var(--font-base);
-     color: var(--border);
- }
-
  h3 {
      font-family: var(--font-base);
  }
@@ -15,15 +8,7 @@
      color: var(--secondary);
  }
 
- .request {
-     background-color: var(--secondary);
-     color: var(--border);
-     padding: 15px 35px;
-     border-radius: 8px;
-     border: 1px solid var(--border);
-     font-size: 20px;
-     font-family: var(--font-base);
- }
+
 
  .about {
      display: flex;
