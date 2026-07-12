@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 .title {
     display: flex;
     gap: 35px;
@@ -89,7 +93,41 @@
     margin-bottom: 25px;
 }
 
+.teamcontent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.team1,
+.team2,
+.team3,
+.team4,
+.team5,
+.team6 {
+    border: 1px solid var(--border);
+    border-radius: 45px;
+    padding: 35px 40px;
+    gap: 10px;
+    border-bottom: 6px solid var(--border);
+}
+
 .teamheader {
     display: flex;
     margin: 0px;
+    justify-content: space-between;
+
+    h4 {
+        margin: 0px;
+    }
+
+    p {
+        margin: 0px
+    }
+}
+
+.profile {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end
 }
