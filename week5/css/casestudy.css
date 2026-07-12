@@ -88,3 +88,8 @@
     padding: 20px 25px;
     margin-bottom: 25px;
 }
+
+.teamheader {
+    display: flex;
+    margin: 0px;
+}
