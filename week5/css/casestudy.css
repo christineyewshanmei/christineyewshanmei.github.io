@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* headline of the content */
 .title {
     display: flex;
@@ -148,4 +149,38 @@ button.seeall {
     border-radius: 14px;
     font-size: 20px;
     margin: 20px;
+}
+
+@media screen and (max-width: 1390px) {
+    .teamcontent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .casecontent {
+        flex-direction: column;
+    }
+
+    hr {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 783px) {
+
+    .title {
+        flex-direction: column;
+        gap: 0px;
+
+        p {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+    }
+
+    .teamcontent {
+        grid-template-columns: 1fr;
+    }
 }
