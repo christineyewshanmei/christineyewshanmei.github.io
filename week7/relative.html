@@ -5,16 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relative</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        h1 {
+            text-align: center;
+            font-family: "Inter", sans-serif;
+        }
+
+        h3 {
+            line-height: 23px;
+            font-family: "Inter", sans-serif;
+        }
+
+        p {
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            margin: 10px 330px;
+            line-height: 24px;
+            margin-bottom: 30px;
+            font-size: 18px;
+            color: rgb(87, 87, 87);
+        }
+
+        img {
+            border-radius: 8px;
+            height: 280px;
+            width: 400px;
+            object-fit: cover;
+        }
+
+        .container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        .contenttext {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 275px;
+            background-color: aliceblue;
+            color: rgb(91, 83, 83);
+            padding: 10px 15px;
+            bottom: 80px;
+            left: 45px;
+            border-radius: 9px;
+            text-align: center;
+            min-height: 150px;
+            box-shadow: 2px 2px 5px rgba(8, 62, 155, 0.2);
+        }
+
+        .title {
+            height: 80px;
+        }
+
+        .readmore {
+            display: flex;
+            margin-top: 10px;
+            color: green;
+            justify-content: center;
+            align-items: baseline;
+            gap: 8px;
+        }
+
+        .arrow {
+            width: 20px;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Caring is the new marketing</h1>
     <p>The Nextcenr blog is the best place to read about the lastest membership insights,trends and more.see who's
         joining the community,read about how our community are inceasing their membership income and lot's more.</p>
-    <div class="content">
-        <img src="images/woman.jpg" width="400px">
-        <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
-        <p>Readmore</p>
+    <div class="container">
+        <div class="content">
+            <img src="images/woman.jpg">
+            <div class="contenttext">
+                <div class="title">
+                    <h3>Creating Streamlined Safeguarding Processes with OneRen</h3>
+                </div>
+                <div class="readmore">
+                    <h3>Readmore</h3><img class="arrow" src="images/arrow.png" alt="Arrow">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <img src="images/topview.jpg">
+            <div class="contenttext">
+                <div class="title">
+                    <h3>What are your safeguarding responsibilities and how can you manage them?</h3>
+                </div>
+                <div class="readmore">
+                    <h3>Readmore</h3><img class="arrow" src="images/arrow.png" alt="Arrow">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <img src="images/laptop.webp">
+            <div class="contenttext">
+                <div class="title">
+                    <h3>Revamping the Membership Model with Triathlon Australia</h3>
+                </div>
+                <div class="readmore">
+                    <h3>Readmore</h3>
+                    <img class="arrow" src="images/arrow.png" alt="Arrow">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
