@@ -8,6 +8,11 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+        body {
+            max-width: 1500px;
+            margin: auto;
+        }
+
         h1 {
             text-align: center;
             font-family: "Inter", sans-serif;
@@ -21,7 +26,6 @@
         p {
             text-align: center;
             font-family: "Inter", sans-serif;
-            margin: 10px 280px;
             line-height: 24px;
             margin-bottom: 30px;
             font-size: 18px;
@@ -31,7 +35,7 @@
         img {
             border-radius: 8px;
             height: 280px;
-            width: 400px;
+            width: 450px;
             object-fit: cover;
         }
 
@@ -40,8 +44,6 @@
             grid-template-columns: repeat(3, 1fr);
             gap: 30px;
             justify-content: center;
-            max-width: 1024px;
-            margin: 0 auto;
         }
 
         .contenttext {
@@ -53,7 +55,7 @@
             color: rgb(91, 83, 83);
             padding: 10px 15px;
             bottom: 80px;
-            left: 45px;
+            left: 70px;
             border-radius: 9px;
             text-align: center;
             min-height: 150px;
@@ -76,6 +78,13 @@
         .arrow {
             width: 20px;
             height: auto;
+        }
+
+        @media screen and (max-width: 1312px) {
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
